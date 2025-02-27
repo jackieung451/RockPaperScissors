@@ -7,14 +7,11 @@ Each game is saved into the game_state.json file, which acts as a database to ke
 # Running The Code
 1. git clone this repository.
 2. After cloning the repo, cd into the backend folder.
-3. Run `pip install -r requirements.txt`
-4. Run `uvicorn main:app --reload`
-5. After the backend is running successfully, open a new terminal.
-6. cd into the frontend folder.
-7. Run `npm install`
-8. Check if `axios` is installed. If not installed, then run `npm install axios`
-9. Run `npm start`
-10. Go to `localhost:3000` and you should be able to see the UI for the app.
+3. Run `uvicorn main:app --reload`
+4. After the backend is running successfully, open a new terminal and cd into the frontend folder.
+5. Run `npm install`
+6. Run `npm start`
+7. Go to `localhost:3000` and you should be able to see the UI for the app.
 
 # How The Game Works
 1. Player 1 enters a name.
